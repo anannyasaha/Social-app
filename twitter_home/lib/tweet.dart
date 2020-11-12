@@ -33,7 +33,7 @@ Widget buildtweet(tweetwidget Tweet){
                 child: new CircleAvatar(
                     radius: 25.00,
                     backgroundColor: Colors.yellow,
-                    backgroundImage:NetworkImage(Tweet.imageURL)
+                    backgroundImage:NetworkImage(Tweet.profile)
           ),
               ),
         )
